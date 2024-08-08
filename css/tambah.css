@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.navcari {
+  margin-left: 800px;
+}
+
+.navbar {
+  background-color: #00c50a;
+}
+.menu {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+/* The side navigation menu */
+.sidebar {
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Links on mouse-over */
+.sidebar .side-b:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.sidebar .active {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+  display: table-cell;
+  vertical-align: top;
+  width: 85%;
+  height: 100%;
+  padding: 20px;
+}
+
+#disab {
+  background-color: #f1f1f1;
+}
+
+input[type='text'],
+input[type='password'],
+select {
+  border: none;
+  border: 1px solid #00000065;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 15px;
+  background-color: #fdfdfd;
+}
+
+textarea {
+  border: none;
+  border: 1px solid #00000065;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  height: 500px;
+  font-size: 15px;
+  background-color: #fdfdfd;
+}
+
+.tbl {
+  width: 100%;
+}
+
+.tambah {
+  border: none;
+}
+
+.simpan {
+  margin-top: 20px;
+  border: none;
+}

@@ -1,0 +1,43 @@
+.img {
+  border-radius: 12px;
+}
+.frame {
+  position: relative;
+  margin: 0 20px;
+}
+.img-text {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  color: white;
+  text-shadow: 2px 2px #000;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.obj {
+  color: rgb(78, 27, 127);
+}
+
+/* Color */
+.ijo {
+  background-color: #23a11a;
+}
+.kun {
+  background-color: #f8e21c;
+}
+.yel-bar:hover {
+  background-color: #c49815;
+}
+
+.isi {
+  text-indent: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.container2 {
+  width: 100%;
+}

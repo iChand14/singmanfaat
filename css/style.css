@@ -1,0 +1,74 @@
+body {
+  background-color: deepskyblue;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  min-height: 100%;
+}
+
+.container2 {
+  width: 100%;
+}
+
+.latar {
+  background-image: url(../img/hutanbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mapdiv {
+  width: 60%;
+  margin: auto;
+}
+
+.mapdiv .cdk-1 {
+  fill: #ef5778;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-2 {
+  fill: #fe9669;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-3 {
+  fill: #8cc63f;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-4 {
+  fill: #00ffff;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-5 {
+  fill: #5696fd;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-6 {
+  fill: #ff55dd;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-7 {
+  fill: #87decd;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-8 {
+  fill: #fdfd8b;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+.mapdiv .cdk-9 {
+  fill: #ff7f2a;
+  stroke-width: 2.5px;
+  transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+  fill: #000;
+}

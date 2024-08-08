@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #f1f1f1;
+}
+
+.sidebar .active {
+  background-color: #555;
+  color: white;
+}
+
+.sidebar .disable {
+  color: black;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+  display: table-cell;
+  vertical-align: top;
+  width: 85%;
+  height: 100%;
+  padding: 20px;
+}
